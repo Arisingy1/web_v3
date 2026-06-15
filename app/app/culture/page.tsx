@@ -8,7 +8,7 @@ import CulturePrimerPage from "@/app/(tm)/culture/primer/page";
    (без пустых полей). */
 export default function AppCulturePage() {
   return (
-    <div className="pb-8 px-4 sm:px-6 lg:px-0 [&>div>section]:!max-w-none [&>div>div]:!max-w-none [&>div>section:first-of-type]:!pt-8 [&>div>section:first-of-type]:!pb-2 lg:[&>div>section]:!px-[60px] lg:[&>div>div]:!px-[60px]">
+    <div className="pb-8 px-4 sm:px-6 lg:px-0 [&_.report-cta]:!hidden [&>div>section]:!max-w-none [&>div>div]:!max-w-none [&>div>section:first-of-type]:!pt-8 [&>div>section:first-of-type]:!pb-2 lg:[&>div>section]:!px-[60px] lg:[&>div>div]:!px-[60px]">
       <CulturePrimerPage />
     </div>
   );
